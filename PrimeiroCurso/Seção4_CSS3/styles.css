@@ -1,0 +1,80 @@
+/*Classes - ponto *IDs - Hashtags */
+p {
+    color: black;
+}
+
+h2 {
+    color: blue;
+}
+
+.azul {
+    color: blue;
+}
+
+img {
+    width: 200px;
+}
+
+#topo {
+    background: blue;
+}
+
+#conteudo1 {
+    background: red;
+}
+
+#conteudo2 {
+    /*border: 10px groove blue;*/
+    border-width: 15px 3px;
+    border-style: groove solid;
+    border-color: blue red green yellow;
+}
+
+.produto {
+    background: gray;
+    margin: 10px;
+}
+
+#rodape {
+    background: green;
+
+}
+
+.formatacao {
+    color: green;
+    font-size: 30px;
+    /*            (primeira opçõo, segunda e terceira) */
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(110, 110, 247);
+}
+
+.texto {
+    /*
+    px -> tamanho fixo
+    % -> tamanho relativo
+    em -> tamanho relativo ao conteiner pai 
+    */
+    font-size: 1em;
+}
+.texto2{
+    font-size: 2em;
+}
+div{
+    font-size: 30px;
+}
+
+.texto3{
+    font: bold 40px "Times New Roman", Times, serif;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.formatacao{
+    text-decoration: underline  ;
+}
