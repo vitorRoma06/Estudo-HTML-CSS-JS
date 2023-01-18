@@ -21,7 +21,7 @@ ul a{
     width: 200px;
     height: 40px;
     display: block;
-    background: url(./imgs/menu.png) no-repeat left bottom;
+    background: #f7b600 url(./imgs/menu.png) no-repeat left bottom;
     color: #000;
     text-decoration: none;
     text-indent: 40px;
@@ -30,5 +30,16 @@ ul a{
 
 a:hover{
     background-position: right bottom;
+    background-color: #f99200;
+    color:#fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a{
+    background-position: right bottom;
+    background-color: #f99200;
     color:#fff;
 }
