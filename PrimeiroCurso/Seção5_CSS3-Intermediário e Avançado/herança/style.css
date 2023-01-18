@@ -1,0 +1,28 @@
+/* Sempre o ultimo sera aprlicado  
+p{
+     color:blue !important; /*O important faz com que tal aplicacao seja priorizada 
+}
+
+p {
+    color:red   
+}
+*/
+
+/* Se um seletor for mais específico que o outro a regra
+mais específica será aplicada(terá precedência sobre regras mais gerais) */
+
+*{
+    color:red;
+}
+
+h2 { /*3*/
+    color: blue;
+}
+
+h2.verde{ /*2*/
+    color:green;
+}
+
+h2#amarelo{ /*1*/
+    color: yellow;
+}
